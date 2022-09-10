@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(249, 210, 210);
+}
+
+.container {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 4px;
+}
+.perfume {
+  background-color: aliceblue;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.perfume,
+h4,
+p,
+h1,
+h4,
+h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding-top: px;
+  cursor: pointer;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 11px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+button:hover .button_top {
+  transform: translateY(-0.33em);
+}
+button:active .button_top {
+  transform: translateY(0);
+}
+
+.attribution {
+  padding-top: 167px;
+  display: flex;
+  justify-content: center;
+}
+
+.peco {
+    display: flex;
+}
